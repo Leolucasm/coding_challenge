@@ -2,11 +2,14 @@
   "name": "coding_challeng",
   "private": true,
   "dependencies": {
+    "@popperjs/core": "2.0.0-alpha.1",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
-    "turbolinks": "^5.2.0"
+    "bootstrap": "5.0.0-beta2",
+    "turbolinks": "^5.2.0",
+    "yarn": "^1.22.10"
   },
   "version": "0.1.0",
   "devDependencies": {

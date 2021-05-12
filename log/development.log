@@ -6,3 +6,517 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 15ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2348)
 
 
+Started GET "/" for ::1 at 2021-05-11 23:04:32 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 187)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2021-05-11 23:04:36 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/leonardo/projetos/coding_challenge/public/packs
+[Webpacker] warning ../package.json: No license field
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: f86639f4459f31b34f60
+Version: webpack 4.46.0
+Time: 2310ms
+Built at: 05/11/2021 11:04:36 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js    124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3864ms (Views: 3858.0ms | ActiveRecord: 0.0ms | Allocations: 23061)
+
+
+[Webpacker] Compiled all packs in /home/leonardo/projetos/coding_challenge/public/packs
+[Webpacker] warning ../package.json: No license field
+
+[Webpacker] Hash: f86639f4459f31b34f60
+Version: webpack 4.46.0
+Time: 738ms
+Built at: 05/11/2021 11:04:38 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-07e792d2b65403c647a1.js    124 KiB  application  [emitted] [immutable]  application
+js/application-07e792d2b65403c647a1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-07e792d2b65403c647a1.js js/application-07e792d2b65403c647a1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2072ms (Views: 2071.4ms | ActiveRecord: 0.0ms | Allocations: 6287)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:06:05 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 186)
+Completed 200 OK in 16ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5792)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:06:06 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 2110)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:06:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 2104)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:34:39 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 187)
+Completed 200 OK in 25ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 5788)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:34:40 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 5)
+Completed 200 OK in 14ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 2105)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:35:20 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 87)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 3092)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:35:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2103)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:37:01 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms | Allocations: 5604)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after " */": expected 1 selector or at-rule, was '@@import "bootstrap'
+        on line 15:4 of app/assets/stylesheets/application.scss
+>>  */
+
+   ---^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:15
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2021-05-11 23:37:14 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 2976)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after " */": expected 1 selector or at-rule, was '@@import "bootstrap'
+        on line 14:4 of app/assets/stylesheets/application.scss
+>>  */
+
+   ---^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:14
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2021-05-11 23:37:16 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2902)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after " */": expected 1 selector or at-rule, was '@@import "bootstrap'
+        on line 14:4 of app/assets/stylesheets/application.scss
+>>  */
+
+   ---^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:14
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2021-05-11 23:37:24 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 975ms (Views: 973.2ms | ActiveRecord: 0.0ms | Allocations: 59302)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:39:46 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 92)
+Completed 200 OK in 44ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 6369)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:39:56 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 85)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 6345)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:42:32 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 85)
+Completed 200 OK in 41ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 6422)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:44:02 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 120)
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:44:18 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 120)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 6377)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:44:34 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 119)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 6449)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:44:35 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5350)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:44:44 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 120)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:47:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 122)
+Completed 200 OK in 36ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 6468)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:48:40 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1407)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2558)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007f53384aa5a0>::Property):
+    1: <div class="container-lg">
+    2:   <section class="content-header">
+    3:     <h1><%= Property.model_name.human(count: @properties.size) %></h1>
+    4:     <hr>
+    5:   </section>
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2021-05-11 23:48:49 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 126)
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 6470)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:50:44 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 94)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 6355)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:50:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 91)
+Completed 200 OK in 35ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 6361)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:51:15 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 91)
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 6357)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:51:39 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 92)
+Completed 200 OK in 39ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 6356)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:51:49 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 90)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 6363)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:52:03 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 93)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 6436)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:53:07 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 90)
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 6355)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:53:08 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 5365)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:53:29 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 89)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 7808)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/leonardo/projetos/coding_challenge/app/views"
+  * "/home/leonardo/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.7/app/views"
+  * "/home/leonardo/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.7/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <div class="wrapper">
+    14:       <%= render 'navbar' %>
+    15:       <div class="content-wrapper">
+    16:         <%= yield %>
+    17:       </div>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:53:46 -0300
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 202)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms | Allocations: 20463)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/leonardo/projetos/coding_challenge/app/views"
+  * "/home/leonardo/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.7/app/views"
+  * "/home/leonardo/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.7/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <div class="wrapper">
+    14:       <%= render 'navbar' %>
+    15:       <div class="content-wrapper">
+    16:         <%= yield %>
+    17:       </div>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:53:48 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 5)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 6295)
+
+
+  
+ActionView::Template::Error (Missing partial home/_navbar, application/_navbar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/leonardo/projetos/coding_challenge/app/views"
+  * "/home/leonardo/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.7/app/views"
+  * "/home/leonardo/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.7/app/views"
+):
+    11: 
+    12:   <body>
+    13:     <div class="wrapper">
+    14:       <%= render 'navbar' %>
+    15:       <div class="content-wrapper">
+    16:         <%= yield %>
+    17:       </div>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:54:07 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 90)
+  Rendered layouts/_navbar.html.erb (Duration: 285.2ms | Allocations: 124928)
+Completed 500 Internal Server Error in 301ms (ActiveRecord: 0.0ms | Allocations: 131495)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `properties_catalog_url' for #<#<Class:0x00007fed54235228>:0x00007fed54223208>):
+    2: <header class="main-header">
+    3:   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    4:     <div class="container">
+    5:       <a class="navbar-brand" href="<%= properties_catalog_url %>">
+    6:         <img src="https://tabas.com/packs/media/images/logo-2d0e3032f8a623afaaf3326616804ec9.svg" alt="logo" width="109" height="30">
+    7:       </a>
+    8:     </div>
+  
+app/views/layouts/_navbar.html.erb:5
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:54:09 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layouts/_navbar.html.erb (Duration: 247.5ms | Allocations: 124750)
+Completed 500 Internal Server Error in 281ms (ActiveRecord: 0.0ms | Allocations: 130152)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `properties_catalog_url' for #<#<Class:0x00007fed54235228>:0x000055fe0b943f68>):
+    2: <header class="main-header">
+    3:   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    4:     <div class="container">
+    5:       <a class="navbar-brand" href="<%= properties_catalog_url %>">
+    6:         <img src="https://tabas.com/packs/media/images/logo-2d0e3032f8a623afaaf3326616804ec9.svg" alt="logo" width="109" height="30">
+    7:       </a>
+    8:     </div>
+  
+app/views/layouts/_navbar.html.erb:5
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:54:48 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 92)
+  Rendered layouts/_navbar.html.erb (Duration: 232.9ms | Allocations: 124881)
+Completed 500 Internal Server Error in 284ms (ActiveRecord: 0.0ms | Allocations: 131434)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `properties_catalog_url' for #<#<Class:0x000055fe0a667f70>:0x000055fe0a50a5d8>):
+    2: <header class="main-header">
+    3:   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    4:     <div class="container">
+    5:       <a class="navbar-brand" href="<%= properties_catalog_url %>">
+    6:         <img src="https://tabas.com/packs/media/images/logo-2d0e3032f8a623afaaf3326616804ec9.svg" alt="logo" width="109" height="30">
+    7:       </a>
+    8:     </div>
+  
+app/views/layouts/_navbar.html.erb:5
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:54:51 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+  Rendered layouts/_navbar.html.erb (Duration: 228.7ms | Allocations: 124752)
+Completed 500 Internal Server Error in 247ms (ActiveRecord: 0.0ms | Allocations: 130158)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `properties_catalog_url' for #<#<Class:0x000055fe0a667f70>:0x000055fe0c188818>):
+    2: <header class="main-header">
+    3:   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    4:     <div class="container">
+    5:       <a class="navbar-brand" href="<%= properties_catalog_url %>">
+    6:         <img src="https://tabas.com/packs/media/images/logo-2d0e3032f8a623afaaf3326616804ec9.svg" alt="logo" width="109" height="30">
+    7:       </a>
+    8:     </div>
+  
+app/views/layouts/_navbar.html.erb:5
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2021-05-11 23:55:12 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 89)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 179)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 6761)
+
+
+Started GET "/" for ::1 at 2021-05-11 23:56:19 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 92)
+  Rendered layouts/_navbar.html.erb (Duration: 1.7ms | Allocations: 162)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 6739)
+
+
