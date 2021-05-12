@@ -15,3 +15,57 @@
  */
 
 @import "bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: Gilroy,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f8f9fa;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.main-header{
+    padding: 0px;
+}
+
+.navbar {
+  padding: 3px;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.separator {
+  border-right: 3px solid #dbb95a;
+  height: 16px;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: #fff !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+  }
+}
+
+.content-wrapper {
+  top: 100px;
+  position: relative;
+  padding: 25px;
+}
