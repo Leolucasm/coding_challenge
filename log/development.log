@@ -842,3 +842,7 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 6768)
 
 
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE "gsindical_development" ENCODING = 'utf8'[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE "gsindical_test" ENCODING = 'utf8'[0m
+  [1m[35m (428.6ms)[0m  [1m[35mCREATE DATABASE "coding_challenge_development" ENCODING = 'utf8'[0m
+  [1m[35m (263.4ms)[0m  [1m[35mCREATE DATABASE "coding_challenge_test" ENCODING = 'utf8'[0m
