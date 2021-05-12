@@ -27,6 +27,6 @@ test:
 production:
   <<: *default
   database: coding_challenge_production
-  username: rails
+  username: <%= ENV['APP_DATABASE_USER'] %>
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
   reaping_frequency: 0
