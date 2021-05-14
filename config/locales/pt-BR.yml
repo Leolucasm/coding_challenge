@@ -1,0 +1,9 @@
+"pt-BR":
+  movie_name: "Nome do Filme"
+  search: "Buscar"
+  home: "Início"
+  error: "Erro"
+  messages:
+    word_size_invalid: "O tamanho da palavra pesquisada é inválido. Mínimo: 3 / Máximo: 100"
+    error_search: "Ocorreu um erro ao realizar a busca"
+    no_results: "Nenhum registro encontrado"

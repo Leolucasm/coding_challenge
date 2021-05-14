@@ -1,17 +1,130 @@
 <div class="container-lg">
   <section class="content-header">
-    <h1>Home</h1>
+    <h1><%= t('home') %></h1>
     <hr>
   </section>
 
   <section class="content">
     <form class="row g-3">
       <div class="col-md-6">
-        <input type="text" class="form-control" id="movie-name" placeholder="Movie Name">
+        <input type="text" class="form-control" id="movie_name" placeholder="<%= t('movie_name') %>" minlength="<%= GlobalConstants::MINIMUM_TERM_SIZE %>" maxlength="<%= GlobalConstants::MAXIMUM_TERM_SIZE %>" required>
       </div>
       <div class="col-md-3">
-        <button type="submit" class="btn btn-primary">Search</button>
+        <button type="submit" class="btn btn-primary" id="search_movie"><%= t('search') %></button>
       </div>
     </form>
+    <div class="row g-3" id="results"></div>
+
+    <div id="overlay">
+      <div class="cv-spinner">
+        <span class="spinner"></span>
+      </div>
+    </div>
   </section>
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $(document).ajaxSend(function() {
+      $("#overlay").fadeIn(300);　
+      $("#search_movie").prop("disabled",true);
+    });
+
+    function overlay_fadeout(){
+      $("#overlay").fadeOut(300);
+      $("#search_movie").prop("disabled",false);
+    }
+
+    function get_page_item(page, active=""){
+      return '<li class="page-item ' + active + '"><a class="page-link" href="#" >' + page + '</a></li>';
+    }
+
+    function get_page_items(page, total_pages){
+      var page_items = '';
+      if(page > 1){
+        page_items += '<li>' +
+          '<a class="page-link page-move" id="page_' + (page-1) + '" href="#" aria-label="Previous">' +
+            '<span aria-hidden="true">&laquo;</span>' +
+          '</a>' +
+        '</li>';
+        page_items += get_page_item(page-1);
+      }
+
+      page_items += get_page_item(page, "active");
+
+      if(page < total_pages){
+        page_items += get_page_item(page+1);
+        page_items += '<li>' +
+          '<a class="page-link page-move" id="page_' + (page+1) + '" href="#" aria-label="Next">' +
+            '<span aria-hidden="true">&raquo;</span>' +
+          '</a>' +
+        '</li>';
+      }
+
+      return page_items;
+    }
+
+    function get_actors_movie(page=1){
+      var term = $("#movie_name").val();
+      $("#results").empty();
+
+      if(term.length >= <%= GlobalConstants::MINIMUM_TERM_SIZE %> && term.length <= <%= GlobalConstants::MAXIMUM_TERM_SIZE %>) {
+        $.ajax({
+          type: "GET",
+          url: "/home/find_actors_movie",
+          data: { "term": term, "page": page },
+          dataType: "json",
+          success: function (data) {
+            if (jQuery.isEmptyObject(data)) {
+              $("#results").append(
+                '<div class="card-json card-no-results">' +
+                  '<span><%= t('messages.no_results') %></span>' +
+                '</div>');
+            } else {
+              $.each(data["results"], function(index, value) {
+                $("#results").append(
+                '<div class="card-json card-success">' +
+                  '<span>' + JSON.stringify(value) + '</span>' +
+                '</div>');
+              });
+
+              $("#results").append('<nav>' +
+                '<ul class="pagination justify-content-center">' +
+                  get_page_items(data.page, data.total_pages) +
+                '</ul>' +
+              '</nav>');
+            }
+            overlay_fadeout();
+          },
+          error: function (request, status, error) {
+            $("#results").append(
+              '<div class="card-json card-error">' +
+                '<span><%= t('messages.error_search') %>\n'+
+                '<%= t('error') %>: ' + error + '</span>' +
+              '</div>');
+            overlay_fadeout();
+          }
+        });
+      } else {
+        alert("<%= t('messages.word_size_invalid') %>");
+      }
+    }
+
+    $(document).on("click", ".page-item", function(){
+      event.preventDefault();
+      get_actors_movie($(this).find('a').text());
+    });
+
+    $(document).on("click", ".page-move", function(){
+      event.preventDefault();
+      var id = $(this).attr('id').replace('page_', '');
+      get_actors_movie(id);
+    });
+
+    $("#search_movie").on("click", function() {
+      event.preventDefault();
+      get_actors_movie();
+    });
+  });
+</script>
