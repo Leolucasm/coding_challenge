@@ -30,7 +30,3 @@
 
 # Ignore local file uploading
 storage/
-
-# Ignore folders YARN
-/node_modules
-/public/packs
