@@ -76,7 +76,8 @@
           data: { "term": term, "page": page },
           dataType: "json",
           success: function (data) {
-            if (jQuery.isEmptyObject(data)) {
+            if ((Object.keys(data).length == 0) || (data.total_pages == 0)) {
+            // if (jQuery.isEmptyObject(data)) {
               $("#results").append(
                 '<div class="card-json card-no-results">' +
                   '<span><%= t('messages.no_results') %></span>' +
